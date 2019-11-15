@@ -16,17 +16,19 @@ body {
 .banner {
   background-color: #2b3851;
   display: flex;
-
+  padding: 3rem;
+  overflow: hidden;
 }
 
 .robot {
   margin-right: 0;
   width: 320px;
   left: 50%;
-  top: 50%;
+  top: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
+
 }
 
 .robot-body {
@@ -40,7 +42,7 @@ body {
   align-items: center;
   position: absolute;
   left: 42%;
-  bottom: 65%;
+  bottom: 55%;
 }
 
 .robot-head-right {
@@ -53,25 +55,6 @@ body {
 
 .robot-head-left {
   position: absolute;
-  flex-wrap: wrap;
-  flex-direction: column;
-  right: 50%;
-}
-
-.robot-head-left,
-.robot-head-right {
-  bottom: 33%;
-}
-
-.robot-head-right:hover {
-  position: relative;
-  flex-wrap: wrap;
-  flex-direction: column;
-  left: 50%;
-}
-
-.robot-head-left:hover {
-  position: relative;
   flex-wrap: wrap;
   flex-direction: column;
   right: 50%;
